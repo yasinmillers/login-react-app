@@ -1,12 +1,9 @@
-export const login = () => {
-    return ( <
-        div className = "content-container" >
+import React, { Component } from 'react';
 
-
-
-        <
-        /div>
-
-
-    )
+export default class componentName extends Component {
+    render() {
+        return ( <
+            div > textInComponent < /div>
+        );
+    }
 }
