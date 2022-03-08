@@ -1,16 +1,12 @@
 export const login = () => {
-    return (
+    return ( <
+        div className = "content-container" >
+
+
 
         <
-        div className = "content-Container" >
+        /div>
 
-        <
-        h1 > Log in < /h1> <
-        input placeholder = "someone@gmail.com" / >
-        <
-        input type = 'password'
-        placeholder = "password" / >
-        <
-        /div >
+
     )
-};
+}
